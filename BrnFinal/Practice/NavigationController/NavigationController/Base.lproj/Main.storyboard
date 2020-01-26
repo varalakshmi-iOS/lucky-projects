@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HO4-2K-cWj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="F2X-Wp-Zjl">
+            <objects>
+                <viewController id="4EA-kq-Bba" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tQo-p2-uQa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeW-7a-CjB">
+                                <rect key="frame" x="335" y="118" width="54" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26q-63-mZE">
+                                <rect key="frame" x="0.0" y="168" width="414" height="507"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HX4-3m-Ira">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="507"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HX4-3m-Ira" secondAttribute="trailing" id="Jy2-5g-2jW"/>
+                                    <constraint firstItem="HX4-3m-Ira" firstAttribute="leading" secondItem="26q-63-mZE" secondAttribute="leading" id="OHQ-Xr-F4X"/>
+                                    <constraint firstItem="HX4-3m-Ira" firstAttribute="width" secondItem="26q-63-mZE" secondAttribute="width" id="Zrs-dp-BfS"/>
+                                    <constraint firstItem="HX4-3m-Ira" firstAttribute="top" secondItem="26q-63-mZE" secondAttribute="top" id="ega-aW-lP0"/>
+                                    <constraint firstAttribute="bottom" secondItem="HX4-3m-Ira" secondAttribute="bottom" id="j52-xC-mTR"/>
+                                    <constraint firstItem="HX4-3m-Ira" firstAttribute="height" secondItem="26q-63-mZE" secondAttribute="height" id="pT8-Hh-ARA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="nE1-3Q-Z7R"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="eYg-NP-Wfz"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="wbS-QU-Wth">
+                                <rect key="frame" x="11" y="723" width="391" height="37"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.23358308703146391" blue="0.51444954004616716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wbS-QU-Wth" firstAttribute="leading" secondItem="UFV-1K-jqO" secondAttribute="leading" constant="11" id="3wM-0z-TIf"/>
+                            <constraint firstItem="SeW-7a-CjB" firstAttribute="top" secondItem="UFV-1K-jqO" secondAttribute="top" constant="30" id="OYd-ra-vJk"/>
+                            <constraint firstItem="26q-63-mZE" firstAttribute="trailing" secondItem="UFV-1K-jqO" secondAttribute="trailing" id="SUt-BG-Ju4"/>
+                            <constraint firstItem="SeW-7a-CjB" firstAttribute="leading" secondItem="UFV-1K-jqO" secondAttribute="leading" constant="335" id="Sfa-Ed-Ttg"/>
+                            <constraint firstItem="26q-63-mZE" firstAttribute="leading" secondItem="UFV-1K-jqO" secondAttribute="leading" id="orU-no-L0k"/>
+                            <constraint firstItem="26q-63-mZE" firstAttribute="top" secondItem="SeW-7a-CjB" secondAttribute="bottom" constant="8" id="rkE-SG-DOU"/>
+                            <constraint firstItem="UFV-1K-jqO" firstAttribute="trailing" secondItem="SeW-7a-CjB" secondAttribute="trailing" constant="25" id="s56-k8-9sn"/>
+                            <constraint firstItem="wbS-QU-Wth" firstAttribute="top" secondItem="26q-63-mZE" secondAttribute="bottom" constant="48" id="tbD-vw-1Ah"/>
+                            <constraint firstItem="UFV-1K-jqO" firstAttribute="bottom" secondItem="wbS-QU-Wth" secondAttribute="bottom" constant="53" id="tom-CR-nKq"/>
+                            <constraint firstItem="UFV-1K-jqO" firstAttribute="trailing" secondItem="wbS-QU-Wth" secondAttribute="trailing" constant="12" id="zBZ-w5-Hr5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UFV-1K-jqO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="5BS-6k-qk8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NeP-cb-ENL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3963.7681159420295" y="-1202.0089285714284"/>
+        </scene>
+        <!--Tollywood-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TollywoodViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tollywood" id="3ZY-xS-IBg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3963.7681159420295" y="-545.08928571428567"/>
+        </scene>
+        <!--Bollywood-->
+        <scene sceneID="ZRR-K0-vdG">
+            <objects>
+                <viewController id="cZ2-Yt-X1H" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8kR-U6-rcb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="8j0-Mh-0Re"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bollywood" id="Rri-C5-2yx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jww-ya-bRG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3963.7681159420295" y="103.79464285714285"/>
+        </scene>
+        <!--Hollywood-->
+        <scene sceneID="bjz-0I-BNV">
+            <objects>
+                <viewController id="xfX-Hj-QAp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X2t-CN-53f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ERj-N1-4y3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hollywood" id="SAc-yM-ayd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YyJ-Zp-FcE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3963.7681159420295" y="777.45535714285711"/>
+        </scene>
+        <!--Tollywood-->
+        <scene sceneID="ry1-o3-PHU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQH-FR-vhX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jrb-dW-JdY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tollywood" id="hTN-cw-uhA"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kg2-Qx-izT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RC5-BR-Dvq"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="3257.971014492754" y="-545.08928571428567"/>
+        </scene>
+        <!--Bollywood-->
+        <scene sceneID="iAZ-k8-Dil">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAG-NA-lQM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IKA-24-F55" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bollywood" id="dqS-dt-Ape"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4dr-Rf-XJW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cZ2-Yt-X1H" kind="relationship" relationship="rootViewController" id="iEU-xL-Qdu"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="3257.971014492754" y="103.79464285714285"/>
+        </scene>
+        <!--Hollywood-->
+        <scene sceneID="pts-sc-PNj">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h1j-pT-7Hb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8RW-9c-a7G" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Hollywood" id="dwE-ZL-k9N"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Ty-7k-Etj">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xfX-Hj-QAp" kind="relationship" relationship="rootViewController" id="WCY-8X-UKZ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="3257.971014492754" y="762.72321428571422"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Z1f-gr-meq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m68-f3-fmD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="gAq-zP-sjf"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="hvP-2z-928"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AXa-pm-jXB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4EA-kq-Bba" kind="relationship" relationship="rootViewController" id="vT5-Z0-7fx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1NT-XS-skJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3257.971014492754" y="-1202.0089285714284"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JzH-cY-pI7">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="HO4-2K-cWj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WIE-sv-jmg">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="m68-f3-fmD" kind="relationship" relationship="viewControllers" id="ixJ-rr-4Nm"/>
+                        <segue destination="jrb-dW-JdY" kind="relationship" relationship="viewControllers" id="2R2-f8-SRh"/>
+                        <segue destination="IKA-24-F55" kind="relationship" relationship="viewControllers" id="saS-tx-N4A"/>
+                        <segue destination="8RW-9c-a7G" kind="relationship" relationship="viewControllers" id="ABs-4U-706"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HXn-D7-XI3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2347.826086956522" y="-219.64285714285714"/>
+        </scene>
+    </scenes>
+</document>

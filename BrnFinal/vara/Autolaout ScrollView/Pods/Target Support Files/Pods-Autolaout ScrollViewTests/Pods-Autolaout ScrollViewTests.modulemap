@@ -1,0 +1,6 @@
+framework module Pods_Autolaout_ScrollViewTests {
+  umbrella header "Pods-Autolaout ScrollViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

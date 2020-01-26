@@ -1,0 +1,6 @@
+framework module Pods_dataTranferThroghPresent {
+  umbrella header "Pods-dataTranferThroghPresent-umbrella.h"
+
+  export *
+  module * { export * }
+}

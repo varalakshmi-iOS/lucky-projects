@@ -1,0 +1,6 @@
+framework module Pods_dataTranferThroghPresentUITests {
+  umbrella header "Pods-dataTranferThroghPresentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

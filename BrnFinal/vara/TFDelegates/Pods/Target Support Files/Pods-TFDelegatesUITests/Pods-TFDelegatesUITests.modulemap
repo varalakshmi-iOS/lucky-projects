@@ -1,0 +1,6 @@
+framework module Pods_TFDelegatesUITests {
+  umbrella header "Pods-TFDelegatesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

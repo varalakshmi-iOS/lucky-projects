@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3175923B40EEE79926544134 /* Pods_sqlLite_sqlLiteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E23D1F7E9AA069EF297757 /* Pods_sqlLite_sqlLiteUITests.framework */; };
+		6517C37223AA097B00CFFA41 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6517C37123AA097B00CFFA41 /* UserDetailsViewController.swift */; };
+		6542460B23A9F8F300B8DE06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542460A23A9F8F300B8DE06 /* AppDelegate.swift */; };
+		6542460D23A9F8F300B8DE06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542460C23A9F8F300B8DE06 /* SceneDelegate.swift */; };
+		6542460F23A9F8F300B8DE06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542460E23A9F8F300B8DE06 /* ViewController.swift */; };
+		6542461223A9F8F300B8DE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6542461023A9F8F300B8DE06 /* Main.storyboard */; };
+		6542461423A9F8F600B8DE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6542461323A9F8F600B8DE06 /* Assets.xcassets */; };
+		6542461723A9F8F600B8DE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6542461523A9F8F600B8DE06 /* LaunchScreen.storyboard */; };
+		6542462223A9F8F600B8DE06 /* sqlLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542462123A9F8F600B8DE06 /* sqlLiteTests.swift */; };
+		6542462D23A9F8F600B8DE06 /* sqlLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542462C23A9F8F600B8DE06 /* sqlLiteUITests.swift */; };
+		65ED47EA23AD0A8900B76916 /* connectsToDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ED47E923AD0A8900B76916 /* connectsToDataBase.swift */; };
+		905B1DE694DEA0FB39D5AE50 /* Pods_sqlLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478F8E803FE722EB8C749B3A /* Pods_sqlLite.framework */; };
+		BC91ACE3CAD496A836835BD2 /* Pods_sqlLiteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2034E8DED39983CAD7E93CBA /* Pods_sqlLiteTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6542461E23A9F8F600B8DE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654245FF23A9F8F300B8DE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6542460623A9F8F300B8DE06;
+			remoteInfo = sqlLite;
+		};
+		6542462923A9F8F600B8DE06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654245FF23A9F8F300B8DE06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6542460623A9F8F300B8DE06;
+			remoteInfo = sqlLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2034E8DED39983CAD7E93CBA /* Pods_sqlLiteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sqlLiteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2130DD3F37CFD36EAF761298 /* Pods-sqlLite-sqlLiteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlLite-sqlLiteUITests.release.xcconfig"; path = "Target Support Files/Pods-sqlLite-sqlLiteUITests/Pods-sqlLite-sqlLiteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		478F8E803FE722EB8C749B3A /* Pods_sqlLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sqlLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFA7A14124A53580A34D208 /* Pods-sqlLiteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlLiteTests.debug.xcconfig"; path = "Target Support Files/Pods-sqlLiteTests/Pods-sqlLiteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6517C37123AA097B00CFFA41 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		6542460723A9F8F300B8DE06 /* sqlLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sqlLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6542460A23A9F8F300B8DE06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6542460C23A9F8F300B8DE06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6542460E23A9F8F300B8DE06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6542461123A9F8F300B8DE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6542461323A9F8F600B8DE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6542461623A9F8F600B8DE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6542461823A9F8F600B8DE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6542461D23A9F8F600B8DE06 /* sqlLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqlLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6542462123A9F8F600B8DE06 /* sqlLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqlLiteTests.swift; sourceTree = "<group>"; };
+		6542462323A9F8F600B8DE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6542462823A9F8F600B8DE06 /* sqlLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqlLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6542462C23A9F8F600B8DE06 /* sqlLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqlLiteUITests.swift; sourceTree = "<group>"; };
+		6542462E23A9F8F600B8DE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65ED47E923AD0A8900B76916 /* connectsToDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectsToDataBase.swift; sourceTree = "<group>"; };
+		81E23D1F7E9AA069EF297757 /* Pods_sqlLite_sqlLiteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sqlLite_sqlLiteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A949010F2DD12571E98D0D1C /* Pods-sqlLiteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlLiteTests.release.xcconfig"; path = "Target Support Files/Pods-sqlLiteTests/Pods-sqlLiteTests.release.xcconfig"; sourceTree = "<group>"; };
+		C597BB8E6D6729A5BB7FB871 /* Pods-sqlLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlLite.release.xcconfig"; path = "Target Support Files/Pods-sqlLite/Pods-sqlLite.release.xcconfig"; sourceTree = "<group>"; };
+		D8B62A1A5022C1CA6EA36DAD /* Pods-sqlLite-sqlLiteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlLite-sqlLiteUITests.debug.xcconfig"; path = "Target Support Files/Pods-sqlLite-sqlLiteUITests/Pods-sqlLite-sqlLiteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E232BDCFBD4FC2DAAD3E1DBE /* Pods-sqlLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sqlLite.debug.xcconfig"; path = "Target Support Files/Pods-sqlLite/Pods-sqlLite.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6542460423A9F8F300B8DE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905B1DE694DEA0FB39D5AE50 /* Pods_sqlLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6542461A23A9F8F600B8DE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC91ACE3CAD496A836835BD2 /* Pods_sqlLiteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6542462523A9F8F600B8DE06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3175923B40EEE79926544134 /* Pods_sqlLite_sqlLiteUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EFA39F178797AE2E3A577C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E232BDCFBD4FC2DAAD3E1DBE /* Pods-sqlLite.debug.xcconfig */,
+				C597BB8E6D6729A5BB7FB871 /* Pods-sqlLite.release.xcconfig */,
+				D8B62A1A5022C1CA6EA36DAD /* Pods-sqlLite-sqlLiteUITests.debug.xcconfig */,
+				2130DD3F37CFD36EAF761298 /* Pods-sqlLite-sqlLiteUITests.release.xcconfig */,
+				4DFA7A14124A53580A34D208 /* Pods-sqlLiteTests.debug.xcconfig */,
+				A949010F2DD12571E98D0D1C /* Pods-sqlLiteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		654245FE23A9F8F300B8DE06 = {
+			isa = PBXGroup;
+			children = (
+				6542460923A9F8F300B8DE06 /* sqlLite */,
+				6542462023A9F8F600B8DE06 /* sqlLiteTests */,
+				6542462B23A9F8F600B8DE06 /* sqlLiteUITests */,
+				6542460823A9F8F300B8DE06 /* Products */,
+				25EFA39F178797AE2E3A577C /* Pods */,
+				F249C5F6078B3C380BA5D747 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6542460823A9F8F300B8DE06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6542460723A9F8F300B8DE06 /* sqlLite.app */,
+				6542461D23A9F8F600B8DE06 /* sqlLiteTests.xctest */,
+				6542462823A9F8F600B8DE06 /* sqlLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6542460923A9F8F300B8DE06 /* sqlLite */ = {
+			isa = PBXGroup;
+			children = (
+				6542460A23A9F8F300B8DE06 /* AppDelegate.swift */,
+				6542460C23A9F8F300B8DE06 /* SceneDelegate.swift */,
+				6542460E23A9F8F300B8DE06 /* ViewController.swift */,
+				6542461023A9F8F300B8DE06 /* Main.storyboard */,
+				6517C37123AA097B00CFFA41 /* UserDetailsViewController.swift */,
+				65ED47E923AD0A8900B76916 /* connectsToDataBase.swift */,
+				6542461323A9F8F600B8DE06 /* Assets.xcassets */,
+				6542461523A9F8F600B8DE06 /* LaunchScreen.storyboard */,
+				6542461823A9F8F600B8DE06 /* Info.plist */,
+			);
+			path = sqlLite;
+			sourceTree = "<group>";
+		};
+		6542462023A9F8F600B8DE06 /* sqlLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				6542462123A9F8F600B8DE06 /* sqlLiteTests.swift */,
+				6542462323A9F8F600B8DE06 /* Info.plist */,
+			);
+			path = sqlLiteTests;
+			sourceTree = "<group>";
+		};
+		6542462B23A9F8F600B8DE06 /* sqlLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6542462C23A9F8F600B8DE06 /* sqlLiteUITests.swift */,
+				6542462E23A9F8F600B8DE06 /* Info.plist */,
+			);
+			path = sqlLiteUITests;
+			sourceTree = "<group>";
+		};
+		F249C5F6078B3C380BA5D747 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				478F8E803FE722EB8C749B3A /* Pods_sqlLite.framework */,
+				81E23D1F7E9AA069EF297757 /* Pods_sqlLite_sqlLiteUITests.framework */,
+				2034E8DED39983CAD7E93CBA /* Pods_sqlLiteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6542460623A9F8F300B8DE06 /* sqlLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6542463123A9F8F600B8DE06 /* Build configuration list for PBXNativeTarget "sqlLite" */;
+			buildPhases = (
+				1F031675203450577CA73779 /* [CP] Check Pods Manifest.lock */,
+				6542460323A9F8F300B8DE06 /* Sources */,
+				6542460423A9F8F300B8DE06 /* Frameworks */,
+				6542460523A9F8F300B8DE06 /* Resources */,
+				247FD6836BF118B510EE87DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sqlLite;
+			productName = sqlLite;
+			productReference = 6542460723A9F8F300B8DE06 /* sqlLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6542461C23A9F8F600B8DE06 /* sqlLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6542463423A9F8F600B8DE06 /* Build configuration list for PBXNativeTarget "sqlLiteTests" */;
+			buildPhases = (
+				8871DB8311132EC224F991E3 /* [CP] Check Pods Manifest.lock */,
+				6542461923A9F8F600B8DE06 /* Sources */,
+				6542461A23A9F8F600B8DE06 /* Frameworks */,
+				6542461B23A9F8F600B8DE06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6542461F23A9F8F600B8DE06 /* PBXTargetDependency */,
+			);
+			name = sqlLiteTests;
+			productName = sqlLiteTests;
+			productReference = 6542461D23A9F8F600B8DE06 /* sqlLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6542462723A9F8F600B8DE06 /* sqlLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6542463723A9F8F600B8DE06 /* Build configuration list for PBXNativeTarget "sqlLiteUITests" */;
+			buildPhases = (
+				49E61A5C214BB72C7CB12B0F /* [CP] Check Pods Manifest.lock */,
+				6542462423A9F8F600B8DE06 /* Sources */,
+				6542462523A9F8F600B8DE06 /* Frameworks */,
+				6542462623A9F8F600B8DE06 /* Resources */,
+				DA4B51A538D41F7378E16283 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6542462A23A9F8F600B8DE06 /* PBXTargetDependency */,
+			);
+			name = sqlLiteUITests;
+			productName = sqlLiteUITests;
+			productReference = 6542462823A9F8F600B8DE06 /* sqlLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654245FF23A9F8F300B8DE06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Puligilla Rakesh Gupta";
+				TargetAttributes = {
+					6542460623A9F8F300B8DE06 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					6542461C23A9F8F600B8DE06 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 6542460623A9F8F300B8DE06;
+					};
+					6542462723A9F8F600B8DE06 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 6542460623A9F8F300B8DE06;
+					};
+				};
+			};
+			buildConfigurationList = 6542460223A9F8F300B8DE06 /* Build configuration list for PBXProject "sqlLite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654245FE23A9F8F300B8DE06;
+			productRefGroup = 6542460823A9F8F300B8DE06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6542460623A9F8F300B8DE06 /* sqlLite */,
+				6542461C23A9F8F600B8DE06 /* sqlLiteTests */,
+				6542462723A9F8F600B8DE06 /* sqlLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6542460523A9F8F300B8DE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6542461723A9F8F600B8DE06 /* LaunchScreen.storyboard in Resources */,
+				6542461423A9F8F600B8DE06 /* Assets.xcassets in Resources */,
+				6542461223A9F8F300B8DE06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6542461B23A9F8F600B8DE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6542462623A9F8F600B8DE06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F031675203450577CA73779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sqlLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		247FD6836BF118B510EE87DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sqlLite/Pods-sqlLite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sqlLite/Pods-sqlLite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sqlLite/Pods-sqlLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E61A5C214BB72C7CB12B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sqlLite-sqlLiteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8871DB8311132EC224F991E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sqlLiteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4B51A538D41F7378E16283 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sqlLite-sqlLiteUITests/Pods-sqlLite-sqlLiteUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sqlLite-sqlLiteUITests/Pods-sqlLite-sqlLiteUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sqlLite-sqlLiteUITests/Pods-sqlLite-sqlLiteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6542460323A9F8F300B8DE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ED47EA23AD0A8900B76916 /* connectsToDataBase.swift in Sources */,
+				6542460F23A9F8F300B8DE06 /* ViewController.swift in Sources */,
+				6542460B23A9F8F300B8DE06 /* AppDelegate.swift in Sources */,
+				6517C37223AA097B00CFFA41 /* UserDetailsViewController.swift in Sources */,
+				6542460D23A9F8F300B8DE06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6542461923A9F8F600B8DE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6542462223A9F8F600B8DE06 /* sqlLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6542462423A9F8F600B8DE06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6542462D23A9F8F600B8DE06 /* sqlLiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6542461F23A9F8F600B8DE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6542460623A9F8F300B8DE06 /* sqlLite */;
+			targetProxy = 6542461E23A9F8F600B8DE06 /* PBXContainerItemProxy */;
+		};
+		6542462A23A9F8F600B8DE06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6542460623A9F8F300B8DE06 /* sqlLite */;
+			targetProxy = 6542462923A9F8F600B8DE06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6542461023A9F8F300B8DE06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6542461123A9F8F300B8DE06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6542461523A9F8F600B8DE06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6542461623A9F8F600B8DE06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6542462F23A9F8F600B8DE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6542463023A9F8F600B8DE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6542463223A9F8F600B8DE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E232BDCFBD4FC2DAAD3E1DBE /* Pods-sqlLite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-907.sqlLite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6542463323A9F8F600B8DE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C597BB8E6D6729A5BB7FB871 /* Pods-sqlLite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-907.sqlLite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6542463523A9F8F600B8DE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DFA7A14124A53580A34D208 /* Pods-sqlLiteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlLiteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-907.sqlLiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlLite.app/sqlLite";
+			};
+			name = Debug;
+		};
+		6542463623A9F8F600B8DE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A949010F2DD12571E98D0D1C /* Pods-sqlLiteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlLiteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-907.sqlLiteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sqlLite.app/sqlLite";
+			};
+			name = Release;
+		};
+		6542463823A9F8F600B8DE06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B62A1A5022C1CA6EA36DAD /* Pods-sqlLite-sqlLiteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-907.sqlLiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqlLite;
+			};
+			name = Debug;
+		};
+		6542463923A9F8F600B8DE06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2130DD3F37CFD36EAF761298 /* Pods-sqlLite-sqlLiteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = sqlLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-907.sqlLiteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sqlLite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6542460223A9F8F300B8DE06 /* Build configuration list for PBXProject "sqlLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6542462F23A9F8F600B8DE06 /* Debug */,
+				6542463023A9F8F600B8DE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6542463123A9F8F600B8DE06 /* Build configuration list for PBXNativeTarget "sqlLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6542463223A9F8F600B8DE06 /* Debug */,
+				6542463323A9F8F600B8DE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6542463423A9F8F600B8DE06 /* Build configuration list for PBXNativeTarget "sqlLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6542463523A9F8F600B8DE06 /* Debug */,
+				6542463623A9F8F600B8DE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6542463723A9F8F600B8DE06 /* Build configuration list for PBXNativeTarget "sqlLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6542463823A9F8F600B8DE06 /* Debug */,
+				6542463923A9F8F600B8DE06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654245FF23A9F8F300B8DE06 /* Project object */;
+}
